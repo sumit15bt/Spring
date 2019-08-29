@@ -1,0 +1,23 @@
+ $("#aprMonitTable").DataTable({
+//                    "columnDefs": [
+//                        {"className": "dt-center", "targets": "_all"}
+//                    ],
+//                    "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+//                    "iDisplayLength": 100,
+//                    stateSave: true,
+//                    data: obj,
+//                    destroy:true,
+//                    columns: [
+//                        {title: "Check"},
+//                        {title: "Date"},
+//                        {title: "Campaign"},
+//                        {title: "UserName"},
+//                        {title: "Duration"}
+//                    ],
+//                });
+
+OR 
+
+table.clear();
+table.rows.add(obj);
+table.draw(false);
